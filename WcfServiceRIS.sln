@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceRIS", "WcfServiceRIS\WcfServiceRIS.csproj", "{647EF13F-4CA4-4AA2-97AD-4E210EF21350}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VbApp", "VbApp\VbApp.vbproj", "{2606109E-9D9C-4285-9AA9-40BF92ED6F4A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{647EF13F-4CA4-4AA2-97AD-4E210EF21350} = {647EF13F-4CA4-4AA2-97AD-4E210EF21350}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{647EF13F-4CA4-4AA2-97AD-4E210EF21350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647EF13F-4CA4-4AA2-97AD-4E210EF21350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647EF13F-4CA4-4AA2-97AD-4E210EF21350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647EF13F-4CA4-4AA2-97AD-4E210EF21350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2606109E-9D9C-4285-9AA9-40BF92ED6F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2606109E-9D9C-4285-9AA9-40BF92ED6F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2606109E-9D9C-4285-9AA9-40BF92ED6F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2606109E-9D9C-4285-9AA9-40BF92ED6F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
